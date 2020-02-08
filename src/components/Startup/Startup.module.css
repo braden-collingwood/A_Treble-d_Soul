@@ -1,0 +1,11 @@
+  .startup {
+      animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+   animation: fadeout 0.5s 2.5s forwards;
+  }
+  
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
