@@ -1,21 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Startup from './components/Startup/Startup';
-
+import Background from './components/Background/Background';
 
 function App() {
 
   const exampleFunc = new function(){
 
     return(
-      <Startup></Startup>
+      <div>
+        <Background></Background>
+        <Startup />
+      </div>
     )
   }
 
   return (
     <div className="App">
-      <Startup></Startup>
+      <Background></Background>
+      <Startup />
     </div>
   );
 }
