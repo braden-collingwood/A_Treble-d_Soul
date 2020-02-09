@@ -7,14 +7,6 @@ import 'typeface-roboto';
 
 export default function SampleComponent() {
 
-    // constructor(props) {
-    //     super(props);
-    //     this.state = {
-    //         song: "Let's get started!",
-    //         artist: "Connect to Spotify and let the music flow."
-    //     }
-    // }
-
     return (
         <div>
             <Box display='flex' flex='1' position="absolute" alignItems="center" justifyContent='space-around' width={1} style={{ height: '100vh' }} bgcolor="success.light">
